@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Sapphire Senior Care</title>
+  <meta name="description" content="A glimpse of daily life, care, and community at Sapphire Senior Care in Roseville, California.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="topbar">
+    <div class="container">
+      <span>Free consultation: <a href="tel:+19169140967">(916)&nbsp;914-0967</a></span>
+      <span class="sep">|</span>
+      <span><a href="mailto:info@sapphiresenior.care">info@sapphiresenior.care</a></span>
+      <span class="sep">|</span>
+      <span>667 Grider Drive, Roseville, CA</span>
+    </div>
+  </div>
+  <header class="header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Sapphire Senior Care - home">
+        <span class="brand__logo"><img src="assets/logo.svg" alt="Sapphire Senior Care" width="109" height="35"></span>
+      </a>
+      <nav class="nav" id="primary-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="care.html">Care &amp; Services</a>
+        <a href="life.html">Life at Sapphire</a>
+        <a href="rooms.html">Rooms &amp; Pricing</a>
+        <a href="safety.html">Safety</a>
+        <a href="gallery.html" aria-current="page">Gallery</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header__cta">
+        <a class="btn btn--blue" href="tel:+19169140967">Call now</a>
+        <button class="nav-toggle" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="banner">
+      <div class="container">
+        <p class="crumbs"><a href="index.html">Home</a> / Gallery</p>
+        <h1>Gallery</h1>
+        <p>A glimpse of everyday life at Sapphire - friendship, care, and a community that feels like home.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="gallery-grid reveal">
+          <button data-lightbox="assets/gallery-1.png" data-alt="Residents enjoying a card game together" aria-label="View image: card game"><img src="assets/gallery-1.png" alt="Residents enjoying a card game together" loading="lazy"></button>
+          <button data-lightbox="assets/gallery-2.png" data-alt="Seniors laughing and socializing" aria-label="View image: socializing"><img src="assets/gallery-2.png" alt="Seniors laughing and socializing" loading="lazy"></button>
+          <button data-lightbox="assets/gallery-3.png" data-alt="A nurse caring for a senior resident" aria-label="View image: nurse and resident"><img src="assets/gallery-3.png" alt="A nurse caring for a senior resident" loading="lazy"></button>
+          <button data-lightbox="assets/gallery-4.png" data-alt="Seniors reading and chatting in a bright lounge" aria-label="View image: lounge"><img src="assets/gallery-4.png" alt="Seniors reading and chatting in a bright lounge" loading="lazy"></button>
+          <button data-lightbox="assets/room-shared.png" data-alt="Shared bedroom" aria-label="View image: shared room"><img src="assets/room-shared.png" alt="Shared bedroom" loading="lazy"></button>
+          <button data-lightbox="assets/room-private.png" data-alt="Private bedroom" aria-label="View image: private room"><img src="assets/room-private.png" alt="Private bedroom" loading="lazy"></button>
+          <button data-lightbox="assets/room-master.png" data-alt="Master bedroom" aria-label="View image: master room"><img src="assets/room-master.png" alt="Master bedroom" loading="lazy"></button>
+          <button data-lightbox="assets/building.png" data-alt="The Sapphire Senior Care residence" aria-label="View image: building"><img src="assets/building.png" alt="The Sapphire Senior Care residence" loading="lazy"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="cta-strip reveal">
+          <div>
+            <h2>Prefer to see it in person?</h2>
+            <p>Book a tour and experience our community first-hand.</p>
+          </div>
+          <div class="btn-row">
+            <a class="btn btn--primary btn--lg" href="contact.html">Book a tour</a>
+            <a class="btn btn--white btn--lg" href="tel:+19169140967">Call (916) 914-0967</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+    <button class="lightbox__close" aria-label="Close viewer">×</button>
+    <button class="lightbox__nav prev" aria-label="Previous image">‹</button>
+    <img src="" alt="">
+    <button class="lightbox__nav next" aria-label="Next image">›</button>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="assets/logo.svg" alt="Sapphire Senior Care" width="130" height="42" style="margin-bottom:16px;">
+          <p>Compassionate assisted living in Roseville, California - enriching lives with dignity, comfort, and around-the-clock care.</p>
+        </div>
+        <div><h4>Explore</h4><ul><li><a href="index.html">Home</a></li><li><a href="care.html">Care &amp; Services</a></li><li><a href="life.html">Life at Sapphire</a></li><li><a href="gallery.html">Gallery</a></li></ul></div>
+        <div><h4>More</h4><ul><li><a href="rooms.html">Rooms &amp; Pricing</a></li><li><a href="safety.html">Safety &amp; Privacy</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div><h4>Contact</h4><ul><li><a href="tel:+19169140967">(916) 914-0967</a></li><li><a href="mailto:info@sapphiresenior.care">info@sapphiresenior.care</a></li><li>667 Grider Drive,<br>Roseville, CA 95678</li></ul></div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> Sapphire Senior Care. All rights reserved.</span>
+        <span>Enriching lives with compassion.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

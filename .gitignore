@@ -1,0 +1,43 @@
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editors / IDEs =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.claude
+
+# ===== Logs / temp =====
+*.log
+*.tmp
+.cache/
+
+# ===== Node (if tooling is added later) =====
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ===== Environment / secrets =====
+.env
+.env.*
+!.env.example
+
+# ===== Python / Django (future phase) =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+db.sqlite3
+staticfiles/
+media/
+
+# ===== Build output =====
+dist/
+build/
