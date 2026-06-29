@@ -150,8 +150,8 @@ a:hover { text-decoration: underline; }
   gap: 16px; padding-top: 14px; padding-bottom: 14px;
 }
 .brand { display: flex; align-items: center; gap: 12px; }
-.brand__logo { background: var(--navy); padding: 8px 12px; border-radius: 10px; }
-.brand__logo svg, .brand__logo img { height: 26px; width: auto; display: block; }
+.brand__logo { display: flex; }
+.brand__logo svg, .brand__logo img { height: 48px; width: auto; display: block; border-radius: 8px; }
 .brand__name { font-family: var(--font-head); font-weight: 700; color: var(--navy); font-size: 1.25rem; line-height: 1; }
 .brand__name span { display: block; font-family: var(--font-body); font-size: .62rem; letter-spacing: .22em; color: var(--blue); font-weight: 700; margin-top: 3px; }
 
