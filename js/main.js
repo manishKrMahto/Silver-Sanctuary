@@ -1,4 +1,4 @@
-/* Sapphire Senior Care — interactions (vanilla JS, no dependencies) */
+/* Silver Sanctuary — interactions (vanilla JS, no dependencies) */
 (function () {
   "use strict";
 

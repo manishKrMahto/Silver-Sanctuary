@@ -1,10 +1,22 @@
+# Version control / project meta
 .claude
 .git
 .gitignore
+.dockerignore
+
+# Docs (not copied into the image)
 *.md
 README.md
+
+# Dockerfile itself (not needed inside the image)
+Dockerfile
+
+# Unused original-name source assets (web-friendly copies are kept & served)
 assets/brand color reference.png
-assets/galary image*.png
+assets/galary image1.png
+assets/galary image2.png
+assets/galary image3.png
+assets/galary image4.png
 assets/shared bedroom.png
 assets/private bedroom.png
 assets/master bedroom.png
